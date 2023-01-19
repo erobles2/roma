@@ -1,0 +1,101 @@
+
+      body {
+        background-color: #86C2F3 ;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+      }
+      table {
+        border: 3px solid #cca633;
+        padding: 20px 50px;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #F9DB78  ;
+      }
+
+h1{
+color: blue; 
+font-size: 40px;
+font family: "Ariel"
+text-align: center;
+}
+p {
+	color: black; 
+font-size: 17px;
+font family: "Ariel"
+text-align: center;
+}
+a{
+	color:blue;
+	font-size:17px;
+	font-family:"open sans";
+	text-align: center;
+	font-weight: bold;
+}
+<head>
+
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			.nav {
+				width: 500px; 
+				margin: 0 auto;
+				display: flex;
+				justify-content: center;
+			}
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#f1c40f;
+				color:#000;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
